@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --cor-azul-escuro:#001129;
-    --cor-azul:#273c59;
-    --cor-branca: #FFFFFF;
+    --preto: #000000;
+    --azul: #001041a2;
+    --azul-medio:#233650;
+    --azul-claro:#dee4ff;
+    --branco: #FFFFFF;
+    
 
     --font: "Roboto", sans-serif;
 }
@@ -17,12 +20,12 @@
 }
 
 body {
+    background-color: var(--azul-claro);
     font-family: var(--font);
-    overflow-x: hidden;
 }
 
 header {
-    background-color: var(--cor-azul);
+    background-color: var(--azul-medio);
     text-align: center;
 }
 
@@ -44,7 +47,7 @@ main {
 }
 
 main h2 {
-    color: var(--cor-azul-escuro);
+    color: var(--preto);
     font-size: 30px;
 }
 
@@ -59,8 +62,8 @@ form {
 #instrumentador, #carga_horaria, #horas_trabalhadas, 
 #data, #medico, #material,
 #hospital, #convenio{
-    background-color: #273c59;
-    color: var(--cor-branca);
+    background-color: var(--azul);
+    color: var(--azul-claro);
     font-size: 16.5px;
     padding-left: 20px;
     width: 400px;
@@ -73,13 +76,13 @@ form {
 #instrumentador::placeholder, #carga_horaria::placeholder, #horas_trabalhadas::placeholder,
 #data::placeholder, #medico::placeholder, #material::placeholder,
 #hospital::placeholder, #convenio::placeholder {
-    color: var(--cor-branca);
+    color: var(--azul-claro);
     font-size: 16.5px;
 }
 
 #button {
-    background-color: var(--cor-azul-escuro);
-    color: var(--cor-branca);
+    background-color: var(--azul-medio);
+    color: var(--azul-claro);
     width: 400px;
     height:45px;
     border: none;
@@ -90,7 +93,6 @@ form {
 }
 
 #button:hover {
-    background-color: var(--cor-azul);
     width: 430px;
     transition: all 0.4s ease-in-out;
 }
