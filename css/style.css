@@ -4,7 +4,7 @@
 :root {
     --preto: #000000;
     --azul: #001041a2;
-    --azul-medio:#233650;
+    --azul-medio:#0e2647;
     --azul-claro:#dee4ff;
     --branco: #FFFFFF;
     
@@ -30,7 +30,7 @@ header {
 }
 
 .logo img {
-    width: 160px;
+    width: 165px;
 }
 
 main {
