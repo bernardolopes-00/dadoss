@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Dados</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo PyVL">
+        </div>
+    </header>
+
+    <main> 
+        <h2>Lançamento de Dados</h2>
+        <form method="post">
+            <input type="text" name="instrumentador" id="instrumentador" placeholder="Instrumentador" required>
+            <input type="number" name="carga_horaria" id="carga_horaria" placeholder="Carga Horária" required>
+            <input type="number" name="horas_trabalhadas" id="horas_trabalhadas" placeholder="Horas Trabalhadas" required>
+            <input type="date" name="data" id="data" placeholder="Data" required>
+            <input type="text" name="medico" id="medico" placeholder="Médico" required>
+            <input type="text" name="material" id="material" placeholder="Material" required>
+            <select name="hospital" id="hospital" required>
+                <option value="">Selecione o Hospital</option>
+                <option value="SANTA CASA">SANTA CASA</option>
+                <option value="HAT">HAT</option>
+                <option value="HDQG">HDQG</option>
+                <option value="HU">HU</option>
+                <option value="HC">HC</option>
+                <option value="HOC">HOC</option>
+                <option value="HP">HP</option>
+                <option value="PROVIDA">PROVIDA</option>
+                <option value="MOISES">MOISES</option>
+                <option value="DIAMANTINA">DIAMANTINA</option>
+                <option value="TAIOBEIRA">TAIOBEIRA</option>
+                <option value="SALINAS">SALINAS</option>
+                <option value="JOÃO J.PONTE">JOÃO J.PONTE</option>
+                <option value="UNAI">UNAI</option>
+            </select>
+            <input type="text" name="convenio" id="convenio" placeholder="Convênio" required>
+            <button type="submit" id="button">Salvar Dados</button>
+        </form>
+    </main>
+</body>
+</html>
